@@ -16,7 +16,7 @@ class App extends Component {
 
 	handleFilterCity = searchInput => {
 		fetch(
-			`http://api.openweathermap.org/data/2.5/forecast?q=${searchInput}&cnt=8&units=metric&appid=${this.state.key}`
+			`https://api.openweathermap.org/data/2.5/forecast?q=${searchInput}&cnt=8&units=metric&appid=${this.state.key}`
 		)
 			.then(res => res.json())
 			.then(json => this.setState({ filteredData: json }))
