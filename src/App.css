@@ -16,6 +16,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  background: #99acff;
+}
+
+main {
+  background: #b5d6f4;
+}
 
 /*  Search bar */
 
